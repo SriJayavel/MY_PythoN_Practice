@@ -12,7 +12,7 @@ def new_game():
         guess = input("Enter (A,B,C,or D): ")
         guess = guess.upper()
         guesses.append(guess)
-        
+
         correct_guesses += check_answers(questions.get(key),guess)
 
         questions_num += 1
